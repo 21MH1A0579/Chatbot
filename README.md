@@ -16,6 +16,13 @@ The main screen welcomes users and provides a button to initiate the chat experi
 
 ![Home Page](https://github.com/21MH1A0579/Chatbot/blob/23071373c505051d4442dcfe6bc770dc9456d58d/UI/main_screen.png)
 
+## Chat Page
+The chat page allows users to interact with Neura in real-time. It features a user-friendly interface where users can type their messages and receive responses from the chatbot. The conversation history is displayed, providing context for ongoing discussions.
+
+![Chat Page](https://github.com/21MH1A0579/Chatbot/blob/your_chat_page_image_link_here)
+
+
+
 ## Getting Started
 Follow these steps to set up and run Neura locally:
 
