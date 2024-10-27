@@ -6,7 +6,7 @@ Ted is a multipurpose chatbot made using Python3, capable of chatting and assist
 ## Project UI
 Home Page:
 
-![image](https://raw.githubusercontent.com/21mh1a0579/Chatbot/master/UI/main_screen.PNG?token=AKGUW5C2TMM37OQE5FSPXLS66D55O)
+![image](https://github.com/21MH1A0579/Chatbot/blob/a75c53744cd4c9251bc29d904621f4186ade417b/UI/main_screen.PNG)
 
 To run it locally on your system, follow these steps:
 
