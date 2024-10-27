@@ -1,7 +1,7 @@
-# Ted, The Deep-Learning Chatbot
+# Neura, The Deep-Learning Chatbot
 
 ## About this Project
-Ted is a multipurpose chatbot made using Python3, capable of chatting and assisting with daily tasks. It uses NLP and Deep-Learning to analyze user messages, classify them into broader categories, and respond with suitable messages or necessary information. Ted is hosted using Flask and is available on Heroku at the link specified above.
+Neura is a multipurpose chatbot made using Python3, capable of chatting and assisting with daily tasks. It uses NLP and Deep-Learning to analyze user messages, classify them into broader categories, and respond with suitable messages or necessary information. Neura is hosted using Flask.
 
 ## Project UI
 Home Page:
