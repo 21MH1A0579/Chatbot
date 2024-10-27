@@ -1,40 +1,49 @@
 # Neura, The Deep-Learning Chatbot
 
-## About this Project
-Neura is a multipurpose chatbot made using Python3, capable of chatting and assisting with daily tasks. It uses NLP and Deep-Learning to analyze user messages, classify them into broader categories, and respond with suitable messages or necessary information. Neura is hosted using Flask.
+## Overview
+Neura is an intelligent, multi-purpose chatbot designed using Python and powered by deep learning. It leverages Natural Language Processing (NLP) and machine learning to analyze user messages, classify intents, and respond accurately. From casual chatting to helping with daily tasks, Neura is a robust virtual assistant capable of handling varied interactions. The chatbot is hosted using Flask for seamless performance and easy web deployment.
+
+## Features
+- **Real-Time Conversations**: Neura can engage in interactive chats and respond to user queries efficiently.
+- **Task Management**: Assists in setting timers, providing weather updates, and fetching information via Google.
+- **Deep Learning Integration**: Utilizes TensorFlow and NLP to understand and classify user intents with precision.
+- **Modular Design**: The chatbot’s codebase is modular, allowing easy updates and scaling.
+- **Flask Hosting**: Hosted on Flask for straightforward deployment and local testing.
 
 ## Project UI
-Home Page:
+**Home Page**  
+The main screen welcomes users and provides a button to initiate the chat experience with Neura.
 
-![image](https://github.com/21MH1A0579/Chatbot/blob/23071373c505051d4442dcfe6bc770dc9456d58d/UI/main_screen.png)
+![Home Page](https://github.com/21MH1A0579/Chatbot/blob/23071373c505051d4442dcfe6bc770dc9456d58d/UI/main_screen.png)
 
-To run it locally on your system, follow these steps:
+## Getting Started
+Follow these steps to set up and run Neura locally:
 
-1. Clone this repository onto your system. On Command Prompt, run the following command:
+### Prerequisites
+1. **Python 3.8+**: Ensure you have Python installed on your system.
+2. **Required Libraries**: Install the libraries listed in `requirements.txt` to run the project smoothly.
 
-    ```bash
-    git clone https://github.com/21mh1a0579/Chatbot.git
-    ```
+### Installation Steps
 
-2. Change your directory to Chatbot:
+1. **Clone the Repository**  
+   Open your terminal or Command Prompt and clone the repository with:
+   ```bash
+   git clone https://github.com/21mh1a0579/Chatbot.git
 
-    ```bash
-    cd Chatbot
-    ```
-
-3. Make sure you have all the required libraries listed in `requirements.txt`. If any are missing, install them using pip. Type this command into your Command Prompt, replacing 'Your-library-name' by the required library name:
-
-    ```bash
-    pip install Your-library-name 
-    ```
-
-4. Then, run the following commands to start the application:
-
-    ```bash
-    set FLASK_APP=chatbot.py
-    flask run
-    ```
-
-5. Enter the URL provided after running the previous commands into your web browser.
-
-Ted is now ready to chat!
+2. **Navigate to the Project Directory**  
+   Change to the project directory by running:
+   ```bash
+   cd Chatbot
+3. **Install Required Libraries**
+   Ensure you have all the required libraries listed in requirements.txt. Install them by running:
+   ```bash
+   pip install -r requirements.txt
+4. **Set Up Environment Variables**
+   To run the Flask application, set the environment variable for Flask. Use the following command based on your operating system:
+   ```bash
+   set FLASK_APP=chatbot.py
+5. **Run the Application**
+   Start the Flask server with the following command:
+   ```bash
+   flask run
+   
